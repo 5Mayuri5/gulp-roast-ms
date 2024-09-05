@@ -1,0 +1,143 @@
+* {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+header {
+    background-color: #082B59;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    flex-direction: column;
+}
+body {
+    margin: 0;
+}
+.navigationmenu ul {
+    list-style: none;
+    display: flex;
+    gap: 75px;
+}
+.navigationmenu a {
+    text-decoration: none;
+    color: white;
+}
+.aboutuscontent {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 1.75;
+    margin: 0px 50px;
+    flex-direction: column;
+}
+.contactbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #082B59;
+    text-align: center;
+}
+.contactbutton a {
+    text-decoration: none;
+    color: #082B59;
+}
+.contactbutton:hover {
+    background-color:#d3d3d3;
+}
+.pourcoffee {
+    width: 1125px;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+.coffeebg {
+    width: 100vw;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+.picturecaption {
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #082B59;
+}
+footer {
+    background-color: #082B59;
+    color: white;
+    font-size: 14px;
+    padding: 50px 0px;
+    text-align: center;
+    line-height: 30px
+}
+.socialmedia {
+    word-spacing: 5px;
+    font-size: 18px;
+}
+.socialmedia a {
+    text-decoration: none;
+    color: white;
+}
+@media all and (min-width: 768px) {
+    header {
+        padding: 20px 100px;
+        flex-direction: row;
+    }
+    .aboutuscontent {
+        padding: 50px;
+        gap: 0px;
+        margin: 0px 100px;
+        flex-direction: column;
+    }
+    .navigationmenu ul {
+        gap: 150px;
+    }
+    .pourcoffee {
+        width: 1125px;
+        height: auto;
+        display: block;
+        max-width: 100%;
+    }
+    .coffeebg {
+        width: 100vw;
+        height: auto;
+        display: block;
+        max-width: 100%;
+    }
+}
+@media all and (min-width: 992px) {
+    header {
+        padding: 20px 100px;
+        flex-direction: row;
+    }
+    .aboutuscontent {
+        padding: 50px;
+        gap: 200px;
+        margin: 0px 20px;
+        flex-direction: row;
+    }
+    .navigationmenu ul {
+        gap: 150px;
+    }
+    .pourcoffee {
+        width: 900px;
+        height: auto;
+        display: block;
+        max-width: 100%;
+    }
+    .coffeebg {
+        width: 100vw;
+        height: auto;
+        display: block;
+        max-width: 100%;
+    }
+}
